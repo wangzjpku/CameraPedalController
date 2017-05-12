@@ -1,0 +1,19 @@
+\t (00:00:02) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:02)     Journal start - Sun Sep 06 23:11:19 2015
+\t (00:00:02)         Host=WZJ-PC User=Administrator Pid=7936 CPUs=4
+\t (00:00:02) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Database opened: D:/6-PCN-Project/3- ı“∞…„œÒª˙Ω≈Ã§∞Âøÿ÷∆/bluetooth-version/pedal_control_bluetooth/all_lib/nuc122lqfp48.dra
+\i (00:00:05) trapsize 1379
+\i (00:00:05) trapsize 1338
+\i (00:00:05) trapsize 1386
+\i (00:00:05) trapsize 1444
+\i (00:00:05) trapsize 1156
+\i (00:00:05) trapsize 1444
+\i (00:00:05) generaledit 
+\i (00:00:21) pick grid 530.24 735.23
+\t (00:00:21) last pick:  500.00  700.00
+\i (00:00:29) pick grid 510.03 755.44
+\t (00:00:29) last pick:  500.00  800.00
+\i (00:00:32) exit 
+\t (00:00:33)     Journal end - Sun Sep 06 23:11:49 2015

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<foundation:EDMDDataSet xmlns:foundation="http://www.prostep.org/ecad-mcad/edmd/2.0/foundation" xmlns:administration="http://www.prostep.org/ecad-mcad/edmd/2.0/administration" xmlns:annotation="http://www.prostep.org/ecad-mcad/edmd/2.0/annotation" xmlns:computational="http://www.prostep.org/ecad-mcad/edmd/2.0/computational" xmlns:d2="http://www.prostep.org/ecad-mcad/edmd/2.0/geometry.d2" xmlns:external="http://www.prostep.org/ecad-mcad/edmd/2.0/external" xmlns:grouping="http://www.prostep.org/ecad-mcad/edmd/2.0/grouping" xmlns:material="http://www.prostep.org/ecad-mcad/edmd/2.0/material" xmlns:pdm="http://www.prostep.org/ecad-mcad/edmd/2.0/pdm" xmlns:property="http://www.prostep.org/ecad-mcad/edmd/2.0/property" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <foundation:ProcessInstruction xsi:type="computational:EDMDProcessInstructionSendInformation"/>
+
+  <foundation:Header>
+    <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+      <property:Key Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>IDX_VERSION</foundation:ObjectName>
+      </property:Key>
+      <property:Value>2.0</property:Value>
+    </foundation:UserProperty>
+    <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+      <property:Key Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>IDX_FILE_TYPE</foundation:ObjectName>
+      </property:Key>
+      <property:Value>BASELINE</property:Value>
+    </foundation:UserProperty>
+    <foundation:UserProperty xsi:type="property:EDMDUserAnyProperty">
+      <property:Key Persistant="true">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:ObjectName>IDX_HISTORY</foundation:ObjectName>
+      </property:Key>
+      <property:Value xmlns:idx="http://www.ptc.com/edmd/1.0/idx">
+        <idx:History>
+          <idx:HistoryRecord index="1">
+            <idx:Login>wzj</idx:Login>
+            <idx:Date>Fri Jul 18 18:03:44 2014</idx:Date>
+            <idx:ToolName>CADENCE_ALLEGRO</idx:ToolName>
+            <idx:ToolRevision>16.6 (P004)</idx:ToolRevision>
+          </idx:HistoryRecord>
+        </idx:History>
+      </property:Value>
+    </foundation:UserProperty>
+    <foundation:CreatorName/>
+    <foundation:CreatorCompany/>
+    <foundation:CreatorSystem>allegro_16.6</foundation:CreatorSystem>
+    <foundation:Description/>
+    <foundation:PostProcessor/>
+    <foundation:PostProcessorVersion/>
+    <foundation:GlobalUnitLength>ITEM_UNIT_LENGTH</foundation:GlobalUnitLength>
+  </foundation:Header>
+
+  <foundation:Body>
+    <foundation:ExternalSource id="EXTERNALSOURCE_1">
+      <foundation:Name>IDX_DESIGN_SUMMARY</foundation:Name>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_FILE</foundation:ObjectName>
+        </property:Key>
+        <property:Value>testpcb.brd</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_REV</foundation:ObjectName>
+        </property:Key>
+        <property:Value>2</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_ID</foundation:ObjectName>
+        </property:Key>
+        <property:Value>IDX_DESIGN_CURRENT</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key Persistant="false">
+          <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_UNITS</foundation:ObjectName>
+        </property:Key>
+        <property:Value>IDX_DESIGN_SUMMARY_UNITS_MIL</property:Value>
+      </foundation:UserProperty>
+      <external:Location>D:/LayoutPCB/pedal_control_bluetooth</external:Location>
+    </foundation:ExternalSource>
+    <foundation:System id="SYSTEM_1">
+      <foundation:GlobalName/>
+    </foundation:System>
+    <foundation:Person id="ACTOR_1">
+      <administration:SurName/>
+    </foundation:Person>
+    <foundation:UnitLength id="ITEM_UNIT_LENGTH">
+      <property:UnitName/>
+      <property:Fundamental>mil</property:Fundamental>
+    </foundation:UnitLength>
+    <foundation:CartesianPoint id="POINT_1">
+      <d2:X>
+        <property:Value>6380.31</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3600.00</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_2">
+      <d2:X>
+        <property:Value>6439.37</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3600.00</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CircleCenter id="CIRCLE_1">
+      <d2:Center>POINT_1</d2:Center>
+      <d2:Diameter>
+        <property:Value>118.11</property:Value>
+      </d2:Diameter>
+    </foundation:CircleCenter>
+    <foundation:CurveSet2d id="CURVESET2D_1">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.00</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>10.40</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>CIRCLE_1</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_1">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:DefiningShape>CURVESET2D_1</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:CartesianPoint id="POINT_3">
+      <d2:X>
+        <property:Value>5312.60</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3600.00</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_4">
+      <d2:X>
+        <property:Value>5371.65</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>3600.00</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CircleCenter id="CIRCLE_2">
+      <d2:Center>POINT_3</d2:Center>
+      <d2:Diameter>
+        <property:Value>118.10</property:Value>
+      </d2:Diameter>
+    </foundation:CircleCenter>
+    <foundation:CurveSet2d id="CURVESET2D_2">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.00</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>10.40</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>CIRCLE_2</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_2">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:Inverted>true</pdm:Inverted>
+      <pdm:DefiningShape>CURVESET2D_2</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:CartesianPoint id="POINT_5">
+      <d2:X>
+        <property:Value>5312.60</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>4667.72</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_6">
+      <d2:X>
+        <property:Value>5371.65</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>4667.72</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CircleCenter id="CIRCLE_3">
+      <d2:Center>POINT_5</d2:Center>
+      <d2:Diameter>
+        <property:Value>118.10</property:Value>
+      </d2:Diameter>
+    </foundation:CircleCenter>
+    <foundation:CurveSet2d id="CURVESET2D_3">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.00</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>10.40</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>CIRCLE_3</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_3">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:Inverted>true</pdm:Inverted>
+      <pdm:DefiningShape>CURVESET2D_3</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:CartesianPoint id="POINT_7">
+      <d2:X>
+        <property:Value>6380.31</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>4667.72</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="POINT_8">
+      <d2:X>
+        <property:Value>6439.37</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>4667.72</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CircleCenter id="CIRCLE_4">
+      <d2:Center>POINT_7</d2:Center>
+      <d2:Diameter>
+        <property:Value>118.11</property:Value>
+      </d2:Diameter>
+    </foundation:CircleCenter>
+    <foundation:CurveSet2d id="CURVESET2D_4">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0.00</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>10.40</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>CIRCLE_4</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="SHAPEELEMENT_4">
+      <pdm:ShapeElementType>PartFeature</pdm:ShapeElementType>
+      <pdm:Inverted>true</pdm:Inverted>
+      <pdm:DefiningShape>CURVESET2D_4</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:Stratum id="OUTLINE_1">
+      <pdm:ShapeElement>SHAPEELEMENT_1</pdm:ShapeElement>
+      <pdm:ShapeElement>SHAPEELEMENT_2</pdm:ShapeElement>
+      <pdm:ShapeElement>SHAPEELEMENT_3</pdm:ShapeElement>
+      <pdm:ShapeElement>SHAPEELEMENT_4</pdm:ShapeElement>
+      <pdm:StratumType>DesignLayerStratum</pdm:StratumType>
+      <pdm:StratumSurfaceDesignation>PrimarySurface</pdm:StratumSurfaceDesignation>
+    </foundation:Stratum>
+    <foundation:Item id="ITEM_1">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_1</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:Shape>OUTLINE_1</pdm:Shape>
+    </foundation:Item>
+    <foundation:System id="SYSTEM_2">
+      <foundation:GlobalName>ALG</foundation:GlobalName>
+    </foundation:System>
+    <foundation:Item id="ITEM_2">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier Persistant="false">
+        <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+        <foundation:Number>PCB_2</foundation:Number>
+        <foundation:Version>1</foundation:Version>
+        <foundation:Revision>0</foundation:Revision>
+        <foundation:Sequence>0</foundation:Sequence>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="ITEMINST_1">
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key Persistant="false">
+            <foundation:SystemScope>SYSTEM_1</foundation:SystemScope>
+            <foundation:ObjectName>THICKNESS</foundation:ObjectName>
+          </property:Key>
+          <property:Value>10.40</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName Persistant="false">
+          <foundation:SystemScope>SYSTEM_2</foundation:SystemScope>
+          <foundation:ObjectName>BoardOutline</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Item>ITEM_1</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+  </foundation:Body>
+
+</foundation:EDMDDataSet>

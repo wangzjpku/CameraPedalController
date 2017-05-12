@@ -1,0 +1,39 @@
+  Revised: Friday, July 18, 2014
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials           July 31,2014      13:21:19	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	4	C1,C2,C4,C5	20P
+2	3	C3,C6,C9	10U
+3	1	C7	0.1u
+4	1	C11	22U
+5	1	IED	<Value>
+6	1	K1	SW PUSHBUTTON
+7	3	LED_3.1,LED_3.2,LED_3.3	RED
+8	1	L1	IND_MOLDED
+9	4	Q1,Q2,Q3,Q4	2N7002LT1
+10	1	R1	33
+11	1	R2	1M
+12	5	R3,R10,R12,R13,R15	10k
+13	1	R4	10M
+14	2	R5,R6	22
+15	3	R7,R8,R14	330
+16	1	R9	4.7k
+17	1	R11	15k
+18	1	SPK1	PHONEJACK STEREO SW
+19	1	SWITCH	CON4
+20	1	U1	NUC122LQFP48PIN
+21	1	U2	DC205A
+22	1	U3	HC_06
+23	1	U4	AMS1086CM-3.3
+24	1	Y1	12M
+25	1	Y2	32K

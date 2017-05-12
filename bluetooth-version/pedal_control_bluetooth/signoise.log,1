@@ -1,0 +1,6 @@
+INFO: Reading report definition file 'd:/Cadence/SPB_16.6/share/pcb/signal/reports.dat'.
+INFO: Finished reading report definition file successfully.
+INFO: Reading report definition file 'd:/Cadence/SPB_16.6/share/pcb/signal/custom_rep.dat'.
+INFO: Finished reading report definition file successfully.
+INFO: Loaded existing device file 'D:\LayoutPCB\pedal_control_bluetooth\devices.dml'
+INFO: Finished loading SigNoise device libraries

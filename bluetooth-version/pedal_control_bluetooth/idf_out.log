@@ -1,0 +1,51 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    IDF Export                                                       )
+(                                                                     )
+(    Drawing          : testpcb.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jul 18 18:13:59 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+IDF board file: D:/LayoutPCB/pedal_control_bluetooth/idf/testpcb.bdf
+IDF library file: D:/LayoutPCB/pedal_control_bluetooth/idf/testpcb.ldf
+Version: 3.0
+
+
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (4546.8200 3284.5100)
+  End (4994.3000 2830.6400)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (4994.3000 2830.6400)
+  End (6700.7000 2827.9700)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (4997.6400 5432.8200)
+  End (4548.0900 4982.2100)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (4548.0900 4982.2100)
+  End (4546.8200 3284.5100)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (7148.6000 4985.1700)
+  End (7146.2400 3284.3900)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (7146.2400 3284.3900)
+  End (6697.0000 2833.0000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (7148.6000 4985.1700)
+  End (6698.0000 5436.0000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (4997.6400 5432.8200)
+  End (6700.7000 5439.7500)
+
+
+IDF out complete.

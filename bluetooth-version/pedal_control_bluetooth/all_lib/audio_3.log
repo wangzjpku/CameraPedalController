@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : audio_3.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Mon Jul 21 14:33:42 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/LayoutPCB/pedal_control_bluetooth/all_lib
+    Name      = audio_3.psm
+    User      = wzj
+    Machine   = WZJ-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

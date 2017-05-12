@@ -1,0 +1,14 @@
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start (-1339.0600 -820.9400)
+  End (-1342.0000 -818.0000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start (816.0000 -1274.0000)
+  End (818.4900 -1276.7600)
+
+
+IDX file: D:/LayoutPCB/pedal_control_bluetooth/idx/bluttooth
+IDX Version: 2.0
+Design file: D:/LayoutPCB/pedal_control_bluetooth/bluttooth.brd
+idx_out complete.

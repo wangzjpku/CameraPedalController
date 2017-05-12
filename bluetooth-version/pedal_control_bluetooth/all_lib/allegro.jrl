@@ -1,0 +1,23 @@
+\t (00:00:03) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:03)     Journal start - Sun Sep 06 23:12:05 2015
+\t (00:00:03)         Host=WZJ-PC User=Administrator Pid=4112 CPUs=4
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Database opened: D:/6-PCN-Project/3- ı“∞…„œÒª˙Ω≈Ã§∞Âøÿ÷∆/bluetooth-version/pedal_control_bluetooth/all_lib/nuc122lqfp48.dra
+\i (00:00:05) trapsize 1379
+\i (00:00:05) trapsize 1338
+\i (00:00:05) trapsize 1386
+\i (00:00:05) trapsize 1444
+\i (00:00:06) trapsize 1156
+\i (00:00:06) trapsize 1444
+\i (00:00:06) generaledit 
+\i (00:00:23) open 
+\i (00:01:37) fillin "D:\bluttooth.brd"
+\i (00:01:37) cd "D:\"
+\t (00:01:37) Opening existing design...
+\i (00:01:37) trapsize 491
+\i (00:01:37) trapsize 478
+\i (00:01:37) trapsize 491
+\i (00:01:37) trapsize 497
+\i (00:01:38) trapsize 640
+\t (00:01:38)     Journal end - Sun Sep 06 23:13:39 2015

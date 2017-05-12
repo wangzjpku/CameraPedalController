@@ -1,0 +1,31 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Create_devices LOG file                                          )
+(                                                                     )
+(    Drawing          : Panasonic_Canera_remote_rou-2.brd             )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jul 15 16:59:12 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING(SPMHDF-67): Device 'XTAL2' occurs multiple times - check the device file.
+
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/hd_audio.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/xtal2.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/xtal2__1.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/phoniexheader3-1.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/dc205a.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/max485.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/lm358.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/led.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/ind-molded.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/herder5-1.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/cap1805.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/res0805.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/nuc122lqfp48pin.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/cap0805.txt': written successfully.
+Device file 'D:/LayoutPCB/pedal_control_bluetooth/all_lib/2n7002lt1.txt': written successfully.
+
+  Created device files: 15
+

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : dc205.dra                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jul 22 17:42:56 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/LayoutPCB/pedal_control_bluetooth/all_lib
+    Name      = dc205.psm
+    User      = wzj
+    Machine   = WZJ-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

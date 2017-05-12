@@ -1,0 +1,1112 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Fri Jul 25 10:47:47 2014
+# 
+# Allegro PCB Router v16-6-112 made 2012/09/12 at 23:00:45
+# Running on: wzj-pc, OS Version: WindowsNT 6.1.7601, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Batch File Name: pasde.do
+# Did File Name: D:/LayoutPCB/pedal_control_bluetooth/specctra.did
+# Current time = Fri Jul 25 10:47:47 2014
+# PCB D:/LayoutPCB/pedal_control_bluetooth
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=-1452.8100 ylo=-1516.8000 xhi=1381.5400 yhi=1450.4600
+# Total 30 Images Consolidated.
+# Via VIA28C16 z=1, 2 xlo=-14.0000 ylo=-14.0000 xhi= 14.0000 yhi= 14.0000
+# Via VIA40 z=1, 2 xlo=-20.0000 ylo=-20.0000 xhi= 20.0000 yhi= 20.0000
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# Wires Processed 1, Vias Processed 0
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 42, Images Processed 54, Padstacks Processed 24
+# Nets Processed 37, Net Terminals 125
+# PCB Area=6648452.839  EIC=12  Area/EIC=554037.737  SMDs=36
+# Total Pin Count: 177
+# Signal Connections Created 88
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 7.5000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 7.5000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 37 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33392.0190 Vertical 25875.7570
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 59267.7760 Horizontal 33374.4140 Vertical 25893.3620
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Loading Do File pasde.do ...
+# Loading Do File D:/LayoutPCB/pedal_control_bluetooth\bluttooth_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/wzj/AppData/Local/Temp/#Taaaaau03828.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 5 (direction In_out) (location Anywhere) (pin_type power) (pin_type signal)
+# Fanout in any direction.
+# Fanout inside and outside component outline.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Current time = Fri Jul 25 10:47:51 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 37 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33392.0190 Vertical 25875.7570
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 59267.7760 Horizontal 33374.4140 Vertical 25893.3620
+# Start Fanout Pass 1 of 5
+# Attempts 106 Successes 106 Failures 0 Vias 106
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# End Pass 1 of 5
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 37 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 31, at vias 31 Total Vias 106
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33209.7100 Vertical 26058.0660
+# Routed Length 7061.1660 Horizontal 4266.2860 Vertical 2794.8800
+# Ratio Actual / Manhattan   0.1191
+# Unconnected Length 60779.6000 Horizontal 34231.4900 Vertical 26548.1100
+route 25 1
+# Current time = Fri Jul 25 10:47:53 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 37 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 31, at vias 31 Total Vias 106
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33209.7100 Vertical 26058.0660
+# Routed Length 7061.1660 Horizontal 4266.2860 Vertical 2794.8800
+# Ratio Actual / Manhattan   0.1191
+# Unconnected Length 60779.6000 Horizontal 34231.4900 Vertical 26548.1100
+# Start Route Pass 1 of 25
+# Routing 88 wires.
+# 17 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 94 (Cross: 83, Clear: 11, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 88 Successes 87 Failures 1 Vias 55
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 1 of 25
+# Start Route Pass 2 of 25
+# Routing 114 wires.
+# 18 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 40 (Cross: 37, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 98 Successes 96 Failures 2 Vias 45
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Conflict Reduction  0.5745
+# End Pass 2 of 25
+# Start Route Pass 3 of 25
+# Routing 126 wires.
+# Total Conflicts: 28 (Cross: 28, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 106 Successes 100 Failures 6 Vias 46
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Conflict Reduction  0.3000
+# End Pass 3 of 25
+# Start Route Pass 4 of 25
+# Routing 150 wires.
+# Total Conflicts: 14 (Cross: 14, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 111 Successes 105 Failures 6 Vias 47
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:01
+# Conflict Reduction  0.5000
+# End Pass 4 of 25
+# Start Route Pass 5 of 25
+# Routing 159 wires.
+# 13 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 8 (Cross: 8, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 109 Successes 103 Failures 6 Vias 53
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Conflict Reduction  0.4286
+# End Pass 5 of 25
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Start Route Pass 6 of 25
+# Routing 28 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 27 Successes 26 Failures 1 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 6 of 25
+# Cpu Time = 0:00:11  Elapsed Time = 0:00:06
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Fanout   |  1|     0|     0|   0|   88|  106|    0|   0|   |  0:00:03|  0:00:03|
+# Route    |  2|    83|    11|   1|    1|   55|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  3|    37|     3|   2|    0|   45|    0|   0| 57|  0:00:02|  0:00:06|
+# Route    |  4|    28|     0|   6|    0|   46|    0|   0| 30|  0:00:02|  0:00:08|
+# Route    |  5|    14|     0|   6|    0|   47|    0|   0| 50|  0:00:03|  0:00:11|
+# Route    |  6|     8|     0|   6|    0|   53|    0|   0| 42|  0:00:02|  0:00:13|
+# Route    |  7|     0|     0|   1|    0|   57|    0|   0|100|  0:00:01|  0:00:14|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:14
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 37 Connections 88 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 34, at vias 14 Total Vias 56
+# Percent Connected  100.00
+# Manhattan Length 59076.2620 Horizontal 33162.4030 Vertical 25913.8590
+# Routed Length 67831.0346 Horizontal 36336.1760 Vertical 31530.4100
+# Ratio Actual / Manhattan   1.1482
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Current time = Fri Jul 25 10:47:59 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 37 Connections 88 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 34, at vias 14 Total Vias 56
+# Percent Connected  100.00
+# Manhattan Length 59076.2620 Horizontal 33162.4030 Vertical 25913.8590
+# Routed Length 67831.0346 Horizontal 36336.1760 Vertical 31530.4100
+# Ratio Actual / Manhattan   1.1482
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 150 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 114 Successes 106 Failures 8 Vias 52
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 160 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 117 Successes 110 Failures 7 Vias 51
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 2 of 2
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Fanout   |  1|     0|     0|   0|   88|  106|    0|   0|   |  0:00:03|  0:00:03|
+# Route    |  2|    83|    11|   1|    1|   55|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  3|    37|     3|   2|    0|   45|    0|   0| 57|  0:00:02|  0:00:06|
+# Route    |  4|    28|     0|   6|    0|   46|    0|   0| 30|  0:00:02|  0:00:08|
+# Route    |  5|    14|     0|   6|    0|   47|    0|   0| 50|  0:00:03|  0:00:11|
+# Route    |  6|     8|     0|   6|    0|   53|    0|   0| 42|  0:00:02|  0:00:13|
+# Route    |  7|     0|     0|   1|    0|   57|    0|   0|100|  0:00:01|  0:00:14|
+# Clean    |  8|     0|     0|   8|    0|   52|    0|   0|   |  0:00:02|  0:00:16|
+# Clean    |  9|     0|     0|   7|    0|   51|    0|   0|   |  0:00:01|  0:00:17|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:17
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 37 Connections 88 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 38, at vias 12 Total Vias 51
+# Percent Connected  100.00
+# Manhattan Length 59139.1320 Horizontal 33113.0820 Vertical 26026.0500
+# Routed Length 67203.5487 Horizontal 36489.5360 Vertical 30746.6000
+# Ratio Actual / Manhattan   1.1364
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/Users/wzj/AppData/Local/Temp/#Taaaaav03828.tmp
+# Routing Written to File C:/Users/wzj/AppData/Local/Temp/#Taaaaav03828.tmp
+# Loading Do File C:/Users/wzj/AppData/Local/Temp/#Taaaaax03828.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net N5266307 Selected.
+# Net ICECLK Selected.
+# Net PC8 Selected.
+# Net M485D0 Selected.
+# Net B_AUDIO Selected.
+# Net A_AUDIO Selected.
+# Net N52189870 Selected.
+# Net A_INPUT Selected.
+# Net ICEDATA Selected.
+# Net B_INPUT Selected.
+# Net N5218431 Selected.
+# Net B_NET2 Selected.
+# Net B_NET3 Selected.
+# Net N5218586 Selected.
+# Net B_NET1 Selected.
+# Net RX1 Selected.
+# Net TX1 Selected.
+# Net N5218376 Selected.
+# Net N5267341 Selected.
+# Net N5218372 Selected.
+# Net VCC Selected.
+# Net N5218038 Selected.
+# Net N5218046 Selected.
+# Net N52662210 Selected.
+# Net N5217819 Selected.
+# Net C_INPUT Selected.
+# Net ICEREST Selected.
+# Net N52166540 Selected.
+# Net VCC5 Selected.
+# Net N5217255 Selected.
+# Net N5216988 Selected.
+# Net N5216881 Selected.
+# Net N5220117 Selected.
+# Net N5220121 Selected.
+# Net GND Selected.
+# Net N5220113 Selected.
+# All Selected Wires Unprotected.
+# All unprotected selected wires were deleted.
+# Current time = Fri Jul 25 10:48:42 2014
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 37 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33392.0190 Vertical 25875.7570
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 59267.7760 Horizontal 33374.4140 Vertical 25893.3620
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Fri Jul 25 10:48:43 2014
+# Nets Processed 38, Net Terminals 178
+# Signal Connections Created 88
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33392.0190 Vertical 25875.7570
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 59267.7760 Horizontal 33374.4140 Vertical 25893.3620
+# Loading Do File C:/Users/wzj/AppData/Local/Temp/#Taaaaay03828.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 5 (direction In_out) (location Anywhere) (pin_type power) (pin_type signal)
+# Fanout in any direction.
+# Fanout inside and outside component outline.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Current time = Fri Jul 25 10:48:54 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33392.0190 Vertical 25875.7570
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 59267.7760 Horizontal 33374.4140 Vertical 25893.3620
+# Start Fanout Pass 1 of 5
+# Attempts 106 Successes 106 Failures 0 Vias 106
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 1 of 5
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 31, at vias 31 Total Vias 106
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33209.7100 Vertical 26058.0660
+# Routed Length 7061.1660 Horizontal 4266.2860 Vertical 2794.8800
+# Ratio Actual / Manhattan   0.1191
+# Unconnected Length 60779.6000 Horizontal 34231.4900 Vertical 26548.1100
+route 25 1
+# Current time = Fri Jul 25 10:48:56 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 31, at vias 31 Total Vias 106
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33209.7100 Vertical 26058.0660
+# Routed Length 7061.1660 Horizontal 4266.2860 Vertical 2794.8800
+# Ratio Actual / Manhattan   0.1191
+# Unconnected Length 60779.6000 Horizontal 34231.4900 Vertical 26548.1100
+# Start Route Pass 1 of 25
+# Routing 88 wires.
+# 14 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 86 (Cross: 73, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 88 Successes 87 Failures 1 Vias 79
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 1 of 25
+# Start Route Pass 2 of 25
+# Routing 114 wires.
+# 9 bend points have been removed.
+# 0 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 37 (Cross: 35, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 96 Successes 92 Failures 4 Vias 55
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Conflict Reduction  0.5698
+# End Pass 2 of 25
+# Start Route Pass 3 of 25
+# Routing 124 wires.
+# Total Conflicts: 17 (Cross: 17, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 102 Successes 98 Failures 4 Vias 46
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Conflict Reduction  0.5406
+# End Pass 3 of 25
+# Start Route Pass 4 of 25
+# Routing 134 wires.
+# Total Conflicts: 5 (Cross: 3, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 105 Successes 101 Failures 4 Vias 54
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Conflict Reduction  0.7059
+# End Pass 4 of 25
+# 24 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Start Route Pass 5 of 25
+# Routing 13 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 12 Successes 10 Failures 2 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 5 of 25
+# Start Route Pass 6 of 25
+# Routing 1 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 1 Successes 0 Failures 1 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 6 of 25
+# Start Route Pass 7 of 25
+# Routing 1 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 1 Failures 0 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 7 of 25
+# Cpu Time = 0:00:09  Elapsed Time = 0:00:06
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Fanout   |  1|     0|     0|   0|   88|  106|    0|   0|   |  0:00:03|  0:00:03|
+# Route    |  2|    83|    11|   1|    1|   55|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  3|    37|     3|   2|    0|   45|    0|   0| 57|  0:00:02|  0:00:06|
+# Route    |  4|    28|     0|   6|    0|   46|    0|   0| 30|  0:00:02|  0:00:08|
+# Route    |  5|    14|     0|   6|    0|   47|    0|   0| 50|  0:00:03|  0:00:11|
+# Route    |  6|     8|     0|   6|    0|   53|    0|   0| 42|  0:00:02|  0:00:13|
+# Route    |  7|     0|     0|   1|    0|   57|    0|   0|100|  0:00:01|  0:00:14|
+# Clean    |  8|     0|     0|   8|    0|   52|    0|   0|   |  0:00:02|  0:00:16|
+# Clean    |  9|     0|     0|   7|    0|   51|    0|   0|   |  0:00:01|  0:00:17|
+# Delete   |  9|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:17|
+# Read Rte |  9|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:17|
+# Fanout   | 10|     0|     0|   0|   88|  106|    0|   0|   |  0:00:02|  0:00:19|
+# Route    | 11|    73|    13|   1|    1|   79|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 12|    35|     2|   4|    1|   55|    0|   0| 56|  0:00:02|  0:00:22|
+# Route    | 13|    17|     0|   4|    1|   46|    0|   0| 54|  0:00:02|  0:00:24|
+# Route    | 14|     3|     2|   4|    1|   54|    0|   0| 70|  0:00:02|  0:00:26|
+# Route    | 15|     0|     0|   2|    1|   57|    0|   0|100|  0:00:01|  0:00:27|
+# Route    | 16|     0|     0|   1|    1|   57|    0|   0|  0|  0:00:00|  0:00:27|
+# Route    | 17|     0|     0|   0|    0|   57|    0|   0|  0|  0:00:00|  0:00:27|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:27
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 39, at vias 17 Total Vias 57
+# Percent Connected  100.00
+# Manhattan Length 58281.2220 Horizontal 32700.1780 Vertical 25581.0440
+# Routed Length 65176.0190 Horizontal 36099.6560 Vertical 29142.1000
+# Ratio Actual / Manhattan   1.1183
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Current time = Fri Jul 25 10:49:02 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 39, at vias 17 Total Vias 57
+# Percent Connected  100.00
+# Manhattan Length 58281.2220 Horizontal 32700.1780 Vertical 25581.0440
+# Routed Length 65176.0190 Horizontal 36099.6560 Vertical 29142.1000
+# Ratio Actual / Manhattan   1.1183
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 145 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 109 Successes 104 Failures 5 Vias 57
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 162 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 112 Successes 106 Failures 6 Vias 53
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 2 of 2
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Fanout   |  1|     0|     0|   0|   88|  106|    0|   0|   |  0:00:03|  0:00:03|
+# Route    |  2|    83|    11|   1|    1|   55|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  3|    37|     3|   2|    0|   45|    0|   0| 57|  0:00:02|  0:00:06|
+# Route    |  4|    28|     0|   6|    0|   46|    0|   0| 30|  0:00:02|  0:00:08|
+# Route    |  5|    14|     0|   6|    0|   47|    0|   0| 50|  0:00:03|  0:00:11|
+# Route    |  6|     8|     0|   6|    0|   53|    0|   0| 42|  0:00:02|  0:00:13|
+# Route    |  7|     0|     0|   1|    0|   57|    0|   0|100|  0:00:01|  0:00:14|
+# Clean    |  8|     0|     0|   8|    0|   52|    0|   0|   |  0:00:02|  0:00:16|
+# Clean    |  9|     0|     0|   7|    0|   51|    0|   0|   |  0:00:01|  0:00:17|
+# Delete   |  9|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:17|
+# Read Rte |  9|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:17|
+# Fanout   | 10|     0|     0|   0|   88|  106|    0|   0|   |  0:00:02|  0:00:19|
+# Route    | 11|    73|    13|   1|    1|   79|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 12|    35|     2|   4|    1|   55|    0|   0| 56|  0:00:02|  0:00:22|
+# Route    | 13|    17|     0|   4|    1|   46|    0|   0| 54|  0:00:02|  0:00:24|
+# Route    | 14|     3|     2|   4|    1|   54|    0|   0| 70|  0:00:02|  0:00:26|
+# Route    | 15|     0|     0|   2|    1|   57|    0|   0|100|  0:00:01|  0:00:27|
+# Route    | 16|     0|     0|   1|    1|   57|    0|   0|  0|  0:00:00|  0:00:27|
+# Route    | 17|     0|     0|   0|    0|   57|    0|   0|  0|  0:00:00|  0:00:27|
+# Clean    | 18|     0|     0|   5|    0|   57|    0|   0|   |  0:00:02|  0:00:29|
+# Clean    | 19|     0|     0|   6|    0|   53|    0|   0|   |  0:00:01|  0:00:30|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:30
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 37, at vias 14 Total Vias 53
+# Percent Connected  100.00
+# Manhattan Length 59018.1620 Horizontal 32952.9900 Vertical 26065.1720
+# Routed Length 64498.3460 Horizontal 35609.9560 Vertical 28888.3900
+# Ratio Actual / Manhattan   1.0929
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/Users/wzj/AppData/Local/Temp/#Taaaaaz03828.tmp
+# Routing Written to File C:/Users/wzj/AppData/Local/Temp/#Taaaaaz03828.tmp
+# Loading Do File C:/Users/wzj/AppData/Local/Temp/#Taaaabb03828.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net N5266307 Selected.
+# Net ICECLK Selected.
+# Net PC8 Selected.
+# Net M485D0 Selected.
+# Net B_AUDIO Selected.
+# Net A_AUDIO Selected.
+# Net N52189870 Selected.
+# Net A_INPUT Selected.
+# Net ICEDATA Selected.
+# Net B_INPUT Selected.
+# Net N5218431 Selected.
+# Net B_NET2 Selected.
+# Net B_NET3 Selected.
+# Net N5218586 Selected.
+# Net B_NET1 Selected.
+# Net RX1 Selected.
+# Net TX1 Selected.
+# Net N5218376 Selected.
+# Net N5267341 Selected.
+# Net N5218372 Selected.
+# Net VCC Selected.
+# Net N5218038 Selected.
+# Net N5218046 Selected.
+# Net N52662210 Selected.
+# Net N5217819 Selected.
+# Net C_INPUT Selected.
+# Net ICEREST Selected.
+# Net N52166540 Selected.
+# Net VCC5 Selected.
+# Net N5217255 Selected.
+# Net N5216988 Selected.
+# Net N5216881 Selected.
+# Net N5220117 Selected.
+# Net N5220121 Selected.
+# Net GND Selected.
+# Net N5220113 Selected.
+# All Selected Wires Unprotected.
+# All unprotected selected wires were deleted.
+# Current time = Fri Jul 25 10:50:18 2014
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33392.0190 Vertical 25875.7570
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 59267.7760 Horizontal 33374.4140 Vertical 25893.3620
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Fri Jul 25 10:50:18 2014
+# Nets Processed 38, Net Terminals 178
+# Signal Connections Created 88
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33392.0190 Vertical 25875.7570
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 59267.7760 Horizontal 33374.4140 Vertical 25893.3620
+# Loading Do File C:/Users/wzj/AppData/Local/Temp/#Taaaabd03828.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 5 (direction In_out) (location Anywhere) (pin_type power) (pin_type signal)
+# Fanout in any direction.
+# Fanout inside and outside component outline.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Current time = Fri Jul 25 10:51:11 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33392.0190 Vertical 25875.7570
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 59267.7760 Horizontal 33374.4140 Vertical 25893.3620
+# Start Fanout Pass 1 of 5
+# Attempts 106 Successes 106 Failures 0 Vias 106
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:01
+# End Pass 1 of 5
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 31, at vias 31 Total Vias 106
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33209.7100 Vertical 26058.0660
+# Routed Length 7061.1660 Horizontal 4266.2860 Vertical 2794.8800
+# Ratio Actual / Manhattan   0.1191
+# Unconnected Length 60779.6000 Horizontal 34231.4900 Vertical 26548.1100
+route 25 1
+# Current time = Fri Jul 25 10:51:13 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 88
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 31, at vias 31 Total Vias 106
+# Percent Connected    0.00
+# Manhattan Length 59267.7760 Horizontal 33209.7100 Vertical 26058.0660
+# Routed Length 7061.1660 Horizontal 4266.2860 Vertical 2794.8800
+# Ratio Actual / Manhattan   0.1191
+# Unconnected Length 60779.6000 Horizontal 34231.4900 Vertical 26548.1100
+# Start Route Pass 1 of 25
+# Routing 88 wires.
+# 16 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 85 (Cross: 72, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 88 Successes 87 Failures 1 Vias 84
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 1 of 25
+# Start Route Pass 2 of 25
+# Routing 114 wires.
+# Total Conflicts: 36 (Cross: 36, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 97 Successes 94 Failures 3 Vias 54
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Conflict Reduction  0.5765
+# End Pass 2 of 25
+# Start Route Pass 3 of 25
+# Routing 128 wires.
+# 23 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 20 (Cross: 20, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 102 Successes 99 Failures 3 Vias 51
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Conflict Reduction  0.4445
+# End Pass 3 of 25
+# Start Route Pass 4 of 25
+# Routing 138 wires.
+# Total Conflicts: 9 (Cross: 7, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 104 Successes 99 Failures 5 Vias 51
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Conflict Reduction  0.5500
+# End Pass 4 of 25
+# 18 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Start Route Pass 5 of 25
+# Routing 21 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 21 Successes 20 Failures 1 Vias 57
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 5 of 25
+# Start Route Pass 6 of 25
+# Routing 1 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 1 Successes 0 Failures 1 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 6 of 25
+# Start Route Pass 7 of 25
+# Routing 1 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 1 Failures 0 Vias 57
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 7 of 25
+# Cpu Time = 0:00:09  Elapsed Time = 0:00:05
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Fanout   |  1|     0|     0|   0|   88|  106|    0|   0|   |  0:00:03|  0:00:03|
+# Route    |  2|    83|    11|   1|    1|   55|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  3|    37|     3|   2|    0|   45|    0|   0| 57|  0:00:02|  0:00:06|
+# Route    |  4|    28|     0|   6|    0|   46|    0|   0| 30|  0:00:02|  0:00:08|
+# Route    |  5|    14|     0|   6|    0|   47|    0|   0| 50|  0:00:03|  0:00:11|
+# Route    |  6|     8|     0|   6|    0|   53|    0|   0| 42|  0:00:02|  0:00:13|
+# Route    |  7|     0|     0|   1|    0|   57|    0|   0|100|  0:00:01|  0:00:14|
+# Clean    |  8|     0|     0|   8|    0|   52|    0|   0|   |  0:00:02|  0:00:16|
+# Clean    |  9|     0|     0|   7|    0|   51|    0|   0|   |  0:00:01|  0:00:17|
+# Delete   |  9|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:17|
+# Read Rte |  9|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:17|
+# Fanout   | 10|     0|     0|   0|   88|  106|    0|   0|   |  0:00:02|  0:00:19|
+# Route    | 11|    73|    13|   1|    1|   79|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 12|    35|     2|   4|    1|   55|    0|   0| 56|  0:00:02|  0:00:22|
+# Route    | 13|    17|     0|   4|    1|   46|    0|   0| 54|  0:00:02|  0:00:24|
+# Route    | 14|     3|     2|   4|    1|   54|    0|   0| 70|  0:00:02|  0:00:26|
+# Route    | 15|     0|     0|   2|    1|   57|    0|   0|100|  0:00:01|  0:00:27|
+# Route    | 16|     0|     0|   1|    1|   57|    0|   0|  0|  0:00:00|  0:00:27|
+# Route    | 17|     0|     0|   0|    0|   57|    0|   0|  0|  0:00:00|  0:00:27|
+# Clean    | 18|     0|     0|   5|    0|   57|    0|   0|   |  0:00:02|  0:00:29|
+# Clean    | 19|     0|     0|   6|    0|   53|    0|   0|   |  0:00:01|  0:00:30|
+# Delete   | 19|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:30|
+# Read Rte | 19|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:30|
+# Fanout   | 20|     0|     0|   0|   88|  106|    0|   0|   |  0:00:03|  0:00:33|
+# Route    | 21|    72|    13|   1|    1|   84|    0|   0|  0|  0:00:01|  0:00:34|
+# Route    | 22|    36|     0|   3|    1|   54|    0|   0| 57|  0:00:01|  0:00:35|
+# Route    | 23|    20|     0|   3|    1|   51|    0|   0| 44|  0:00:02|  0:00:37|
+# Route    | 24|     7|     2|   5|    1|   51|    0|   0| 55|  0:00:02|  0:00:39|
+# Route    | 25|     0|     0|   1|    1|   57|    0|   0|100|  0:00:01|  0:00:40|
+# Route    | 26|     0|     0|   1|    1|   57|    0|   0|  0|  0:00:00|  0:00:40|
+# Route    | 27|     0|     0|   0|    0|   57|    0|   0|  0|  0:00:00|  0:00:40|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:40
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 37, at vias 10 Total Vias 57
+# Percent Connected  100.00
+# Manhattan Length 59669.9420 Horizontal 33568.3670 Vertical 26101.5750
+# Routed Length 67010.3930 Horizontal 35572.2560 Vertical 31459.3600
+# Ratio Actual / Manhattan   1.1230
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Current time = Fri Jul 25 10:51:18 2014
+# 
+#    VIA      TOP    BOTTOM 
+# 
+#    TOP  --------  VIA28C16
+# BOTTOM  VIA28C16  --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 37, at vias 10 Total Vias 57
+# Percent Connected  100.00
+# Manhattan Length 59669.9420 Horizontal 33568.3670 Vertical 26101.5750
+# Routed Length 67010.3930 Horizontal 35572.2560 Vertical 31459.3600
+# Ratio Actual / Manhattan   1.1230
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 153 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 114 Successes 109 Failures 5 Vias 56
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 171 wires.
+# 4 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 116 Successes 112 Failures 4 Vias 51
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 2 of 2
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Fanout   |  1|     0|     0|   0|   88|  106|    0|   0|   |  0:00:03|  0:00:03|
+# Route    |  2|    83|    11|   1|    1|   55|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  3|    37|     3|   2|    0|   45|    0|   0| 57|  0:00:02|  0:00:06|
+# Route    |  4|    28|     0|   6|    0|   46|    0|   0| 30|  0:00:02|  0:00:08|
+# Route    |  5|    14|     0|   6|    0|   47|    0|   0| 50|  0:00:03|  0:00:11|
+# Route    |  6|     8|     0|   6|    0|   53|    0|   0| 42|  0:00:02|  0:00:13|
+# Route    |  7|     0|     0|   1|    0|   57|    0|   0|100|  0:00:01|  0:00:14|
+# Clean    |  8|     0|     0|   8|    0|   52|    0|   0|   |  0:00:02|  0:00:16|
+# Clean    |  9|     0|     0|   7|    0|   51|    0|   0|   |  0:00:01|  0:00:17|
+# Delete   |  9|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:17|
+# Read Rte |  9|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:17|
+# Fanout   | 10|     0|     0|   0|   88|  106|    0|   0|   |  0:00:02|  0:00:19|
+# Route    | 11|    73|    13|   1|    1|   79|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 12|    35|     2|   4|    1|   55|    0|   0| 56|  0:00:02|  0:00:22|
+# Route    | 13|    17|     0|   4|    1|   46|    0|   0| 54|  0:00:02|  0:00:24|
+# Route    | 14|     3|     2|   4|    1|   54|    0|   0| 70|  0:00:02|  0:00:26|
+# Route    | 15|     0|     0|   2|    1|   57|    0|   0|100|  0:00:01|  0:00:27|
+# Route    | 16|     0|     0|   1|    1|   57|    0|   0|  0|  0:00:00|  0:00:27|
+# Route    | 17|     0|     0|   0|    0|   57|    0|   0|  0|  0:00:00|  0:00:27|
+# Clean    | 18|     0|     0|   5|    0|   57|    0|   0|   |  0:00:02|  0:00:29|
+# Clean    | 19|     0|     0|   6|    0|   53|    0|   0|   |  0:00:01|  0:00:30|
+# Delete   | 19|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:30|
+# Read Rte | 19|     0|     0|   0|   88|    0|    0|   0|   |  0:00:00|  0:00:30|
+# Fanout   | 20|     0|     0|   0|   88|  106|    0|   0|   |  0:00:03|  0:00:33|
+# Route    | 21|    72|    13|   1|    1|   84|    0|   0|  0|  0:00:01|  0:00:34|
+# Route    | 22|    36|     0|   3|    1|   54|    0|   0| 57|  0:00:01|  0:00:35|
+# Route    | 23|    20|     0|   3|    1|   51|    0|   0| 44|  0:00:02|  0:00:37|
+# Route    | 24|     7|     2|   5|    1|   51|    0|   0| 55|  0:00:02|  0:00:39|
+# Route    | 25|     0|     0|   1|    1|   57|    0|   0|100|  0:00:01|  0:00:40|
+# Route    | 26|     0|     0|   1|    1|   57|    0|   0|  0|  0:00:00|  0:00:40|
+# Route    | 27|     0|     0|   0|    0|   57|    0|   0|  0|  0:00:00|  0:00:40|
+# Clean    | 28|     0|     0|   5|    0|   56|    0|   0|   |  0:00:01|  0:00:41|
+# Clean    | 29|     0|     0|   4|    0|   51|    0|   0|   |  0:00:02|  0:00:43|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:43
+# 
+# Wiring Statistics ----------------- D:/LayoutPCB/pedal_control_bluetooth\bluttooth.dsn
+# Nets 38 Connections 88 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 36, at vias 8 Total Vias 51
+# Percent Connected  100.00
+# Manhattan Length 59845.6020 Horizontal 33562.9230 Vertical 26282.6790
+# Routed Length 65611.6860 Horizontal 35502.2560 Vertical 30109.4300
+# Ratio Actual / Manhattan   1.0963
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/Users/wzj/AppData/Local/Temp/#Taaaabe03828.tmp
+# Routing Written to File C:/Users/wzj/AppData/Local/Temp/#Taaaabe03828.tmp
+quit

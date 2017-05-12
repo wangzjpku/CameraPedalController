@@ -1,0 +1,480 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jul-17-2014 at 15:30:32 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='NUC122_PADEL_BLUETOOTH';
+ POST_TIME='Sep 10 2012 04:46:09';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_0805_20P':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5216839@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5216839@discrete.\cap np.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5216839@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP NP_0805_22U':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5262752@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5262752@discrete.\cap np.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5262752@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_0805_20P':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5216865@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5216865@discrete.\cap np.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5216865@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_0805_10U':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5217507@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5217507@discrete.\cap np.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5217507@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_0805_20P':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5218004@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5218004@discrete.\cap np.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5218004@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_0805_20P':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5218020@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5218020@discrete.\cap np.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5218020@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP NP_0805_10U':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5216500@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5216500@discrete.\cap np.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5216500@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_0805_0.1U':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5218570@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5218570@discrete.\cap np.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5218570@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP NP_0805_10U':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5262728@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5262728@discrete.\cap np.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5262728@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H1 'CON1_H1_CON1':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5216559@ORCADLIB.CON1.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5216559@orcadlib.\con1.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5216559@orcadlib.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H2 'CON1_H1_CON1':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5216545@ORCADLIB.CON1.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5216545@orcadlib.\con1.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5216545@orcadlib.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H3 'CON1_H1_CON1':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5220539@ORCADLIB.CON1.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5220539@orcadlib.\con1.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5220539@orcadlib.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H4 'CON1_H1_CON1':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5220557@ORCADLIB.CON1.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5220557@orcadlib.\con1.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5220557@orcadlib.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IED 'CON5_HDR1X5_<VALUE>':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5216726@ORCADLIB.CON5.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5216726@orcadlib.\con5.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5216726@orcadlib.\con5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ K1 'SW PUSHBUTTON_0_KEY_0007_SW PUS':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5267299@MY_GLASS.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5267299@my_glass.\sw pushbutton_0.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5267299@my_glass.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'R_0805_IND_MOLDED':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5217803@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5217803@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5217803@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED_3.1 'LED_0805_RED':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5218981@MY_GLASS.LED.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5218981@my_glass.\led.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5218981@my_glass.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED_3.2 'LED_0805_RED':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5216648@MY_GLASS.LED.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5216648@my_glass.\led.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5216648@my_glass.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED_3.3 'LED_0805_RED':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5266215@MY_GLASS.LED.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5266215@my_glass.\led.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5266215@my_glass.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'NPN_3_SOT23_B_2N7002LT1':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5219726@NUC122_PADEL_BLUETOOTH.NPN_3.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5219726@nuc122_padel_bluetooth.\npn_3.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5219726@nuc122_padel_bluetooth.\npn_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'NPN_3_SOT23_B_2N7002LT1':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5219750@NUC122_PADEL_BLUETOOTH.NPN_3.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5219750@nuc122_padel_bluetooth.\npn_3.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5219750@nuc122_padel_bluetooth.\npn_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q3 'NPN_3_SOT23_B_2N7002LT1':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5219774@NUC122_PADEL_BLUETOOTH.NPN_3.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5219774@nuc122_padel_bluetooth.\npn_3.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5219774@nuc122_padel_bluetooth.\npn_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q4 'NPN_3_SOT23_B_2N7002LT1':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5220332@NUC122_PADEL_BLUETOOTH.NPN_3.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5220332@nuc122_padel_bluetooth.\npn_3.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5220332@nuc122_padel_bluetooth.\npn_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_0805_33':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5216813@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5216813@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5216813@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_0805_10K':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5220067@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5220067@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5220067@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_0805_15K':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5220095@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5220095@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5220095@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_0805_10K':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5264866@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5264866@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5264866@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_0805_10K':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5264892@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5264892@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5264892@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'RES1_0805_330':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5266227@ORCADLIB.RES1.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5266227@orcadlib.\res1.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5266227@orcadlib.\res1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_0805_10K':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5267325@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5267325@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5267325@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_0805_1M':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5216476@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5216476@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5216476@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_0805_10K':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5217481@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5217481@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5217481@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_0805_10M':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5217988@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5217988@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5217988@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_0805_22':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5218330@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5218330@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5218330@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_0805_22':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5218356@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5218356@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5218356@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RES1_0805_330':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5218993@ORCADLIB.RES1.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5218993@orcadlib.\res1.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5218993@orcadlib.\res1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RES1_0805_330':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5216660@ORCADLIB.RES1.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5216660@orcadlib.\res1.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5216660@orcadlib.\res1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_0805_4.7K':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5220039@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5220039@discrete.\r.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5220039@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S1 'CON5_SWITCH3-KEY_SW-DIP4':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5265728@MY_GLASS.CON5.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5265728@my_glass.\con5.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5265728@my_glass.\con5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SPK1 'PHONEJACK STEREO SW_AUDIO_3_PHO':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5217120@CONNECTOR.PHONEJACK STEREO SW.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5217120@connector.\phonejack stereo sw.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5217120@connector.\phonejack stereo sw.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SWITCH 'CON4_CON4-B_CON4':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5221265@ORCADLIB.CON4.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5221265@orcadlib.\con4.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5221265@orcadlib.\con4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'NUC122LQFP48PIN_NUC122LQFP48_NU':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS118@MY_GLASS.NUC122LQFP48PIN.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins118@my_glass.\nuc122lqfp48pin.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins118@my_glass.\nuc122lqfp48pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'DC205A_DC205_DC205A':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5263234@MY_GLASS.DC205A.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5263234@my_glass.\dc205a.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5263234@my_glass.\dc205a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'HC_06_HC-6-BLUETOOTH_HC_06':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5222439@MY_GLASS.HC_06.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5222439@my_glass.\hc_06.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5222439@my_glass.\hc_06.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'AMS1117_TO262_AMS1086CM-3.3':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5262776@MYSCHLIB.AMS1117.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5262776@myschlib.\ams1117.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5262776@myschlib.\ams1117.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'CRYSTAL_XALTDIP2_12M':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5217176@DISCRETE.CRYSTAL.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5217176@discrete.\crystal.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5217176@discrete.\crystal.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y2 'CRYSTAL_XTAL-3_4MM-2P_32K':;
+
+SECTION_NUMBER 1
+ '@NUC122_PADEL_BLUETOOTH.SCHEMATIC1(SCH_1):INS5218068@DISCRETE.CRYSTAL.NORMAL(CHIPS)':
+ C_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):ins5218068@discrete.\crystal.normal\(chips)',
+ P_PATH='@nuc122_padel_bluetooth.schematic1(sch_1):page1_ins5218068@discrete.\crystal.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

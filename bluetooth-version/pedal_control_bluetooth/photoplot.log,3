@@ -1,0 +1,609 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : bluttooth.brd                                 )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jul 25 11:42:20 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < buttom-layer2 >
+     TO FILE < D:/LayoutPCB/pedal_control_bluetooth/buttom-layer2.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02800                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.05906                     0.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.03000      90.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.04000       0.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000       0.000 NO     DARK 
+  RECTANGLE  0.08800     x 0.04500       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.07874       0.000 NO     DARK 
+  OBLONG     0.07874     x 0.16535     135.000 NO     DARK 
+  OBLONG     0.16535     x 0.07874     135.000 NO     DARK 
+
+     buttom-layer2 created.
+
+
+================================================================
+     PROCESSING FILM < maskbtm >
+     TO FILE < D:/LayoutPCB/pedal_control_bluetooth/maskbtm.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.06400                                  DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.05906                     0.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.04000       0.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.04600     x 0.03600      90.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000       0.000 NO     DARK 
+  RECTANGLE  0.08800     x 0.04500       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.07874       0.000 NO     DARK 
+  OBLONG     0.07874     x 0.16535     135.000 NO     DARK 
+  OBLONG     0.16535     x 0.07874     135.000 NO     DARK 
+
+     maskbtm created.
+
+
+================================================================
+     PROCESSING FILM < masktop >
+     TO FILE < D:/LayoutPCB/pedal_control_bluetooth/masktop.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  CIRCLE     0.06400                                  DARK 
+  SQUARE     0.03600                     0.000 NO     DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.05906                     0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000       0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000      90.000 NO     DARK 
+  RECTANGLE  0.08800     x 0.04500       0.000 NO     DARK 
+  OBLONG     0.01100     x 0.05906       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.01100       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.07874       0.000 NO     DARK 
+  OBLONG     0.07874     x 0.16535     135.000 NO     DARK 
+  OBLONG     0.16535     x 0.07874     135.000 NO     DARK 
+  PAD SHAPE  SRX10_80Y10_56R0_10       315.000 NO     DARK 
+  PAD SHAPE  SRX1_56Y3_60R0_10         315.000 NO     DARK 
+
+     masktop created.
+
+
+================================================================
+     PROCESSING FILM < silkbtm >
+     TO FILE < D:/LayoutPCB/pedal_control_bluetooth/silkbtm.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (-786.00 -177.00)
+           ... using undefined line width of 10.00
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 10.00
+
+    WARNING: 0 width line found at (253.91 -136.70)
+           ... using undefined line width of 10.00
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 10.00
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01000                                  DARK 
+
+     silkbtm created with warnings
+
+
+================================================================
+     PROCESSING FILM < silktop >
+     TO FILE < D:/LayoutPCB/pedal_control_bluetooth/silktop.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00591                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+
+     silktop created.
+
+
+================================================================
+     PROCESSING FILM < smdbtm >
+     TO FILE < D:/LayoutPCB/pedal_control_bluetooth/smdbtm.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.06400                                  DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.05906                     0.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.03000      90.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.04000       0.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000       0.000 NO     DARK 
+  RECTANGLE  0.08800     x 0.04500       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.07874       0.000 NO     DARK 
+  OBLONG     0.07874     x 0.16535     135.000 NO     DARK 
+  OBLONG     0.16535     x 0.07874     135.000 NO     DARK 
+
+     smdbtm created.
+
+
+================================================================
+     PROCESSING FILM < smdtop >
+     TO FILE < D:/LayoutPCB/pedal_control_bluetooth/smdtop.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  CIRCLE     0.06400                                  DARK 
+  SQUARE     0.03600                     0.000 NO     DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.05906                     0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000       0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000      90.000 NO     DARK 
+  RECTANGLE  0.08800     x 0.04500       0.000 NO     DARK 
+  OBLONG     0.01100     x 0.05906       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.01100       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.07874       0.000 NO     DARK 
+  OBLONG     0.07874     x 0.16535     135.000 NO     DARK 
+  OBLONG     0.16535     x 0.07874     135.000 NO     DARK 
+  PAD SHAPE  SRX10_70Y10_46R0_10       315.000 NO     DARK 
+  PAD SHAPE  SRX1_46Y3_50R0_10         315.000 NO     DARK 
+
+     smdtop created.
+
+
+================================================================
+     PROCESSING FILM < top-layer1 >
+     TO FILE < D:/LayoutPCB/pedal_control_bluetooth/top-layer1.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02800                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  SQUARE     0.03600                     0.000 NO     DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.05906                     0.000 NO     DARK 
+  RECTANGLE  0.03600     x 0.05000       0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000       0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000      90.000 NO     DARK 
+  RECTANGLE  0.08800     x 0.04500       0.000 NO     DARK 
+  OBLONG     0.01100     x 0.05906       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.01100       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.07874       0.000 NO     DARK 
+  OBLONG     0.07874     x 0.16535     135.000 NO     DARK 
+  OBLONG     0.16535     x 0.07874     135.000 NO     DARK 
+  PAD SHAPE  SRX10_70Y10_46R0_10       315.000 NO     DARK 
+  PAD SHAPE  SRX1_46Y3_50R0_10         315.000 NO     DARK 
+
+     top-layer1 created.
+
+
+================================================================
+     PROCESSING FILM < silkall >
+     TO FILE < D:/LayoutPCB/pedal_control_bluetooth/silkall.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: more than one pin class in film record
+    WARNING: more than one via class in film record
+    WARNING: more than one etch class in film record
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-660.00 -239.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-626.00 -26.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-716.00 -26.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-630.00 -151.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-720.00 -151.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-660.00 -98.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-570.00 -239.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-570.00 -98.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-592.00 32.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-502.00 32.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-590.00 152.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-500.00 152.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-578.00 299.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-488.00 299.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-317.00 -420.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-227.00 -420.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-315.00 -301.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-225.00 -301.00).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 -38.28).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 -97.33).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 138.89).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 79.83).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 20.78).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-264.00 134.00).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 316.06).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 257.00).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 197.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-264.00 224.00).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 552.28).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 493.22).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 434.17).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 375.11).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-277.59 611.33).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-208.69 -156.39).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-149.64 -156.39).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-90.58 -156.39).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (-31.53 -156.39).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-203.00 -171.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (-113.00 -171.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (-64.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (-44.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 159.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 139.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 119.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 99.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (-44.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (-64.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 319.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 299.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 279.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 259.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 239.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 219.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 199.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (-124.47 179.47).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (27.53 -156.39).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (86.58 -156.39).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (145.64 -156.39).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (-24.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (-4.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (16.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (36.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (56.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (76.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (96.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (116.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (136.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (156.00 39.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (156.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (136.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (116.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (96.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (76.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (56.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (36.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (16.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (-4.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD14 at (-24.00 379.94).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (259.00 -535.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (259.00 -445.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (265.00 -312.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (355.00 -312.00).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (204.69 -156.39).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 -97.33).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 -38.28).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (263.00 -177.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (353.00 -177.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 99.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 119.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 139.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 159.47).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 20.78).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 79.83).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 138.89).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 179.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 199.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 219.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 239.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 259.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 279.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 299.47).
+    WARNING: Null REGULAR-PAD specified for padstack PAD15 at (216.47 319.47).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 197.94).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 257.00).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 316.06).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 375.11).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 434.17).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 493.22).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 552.28).
+    WARNING: Null REGULAR-PAD specified for padstack SMD40_40 at (273.59 611.33).
+    WARNING: Null REGULAR-PAD specified for padstack PAD1 at (452.50 -885.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD1 at (527.50 -885.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD2 at (490.00 -805.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (434.00 -718.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (524.00 -718.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (497.00 -325.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (407.00 -325.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (536.00 -299.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (529.00 -46.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (497.00 -187.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (407.00 -187.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (537.00 -175.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (492.00 -67.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (402.00 -67.00).
+    WARNING: Null REGULAR-PAD specified for padstack 40X30 at (442.00 92.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (530.00 66.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (538.00 182.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (546.00 317.00).
+    WARNING: Null REGULAR-PAD specified for padstack 40X30 at (442.00 412.00).
+    WARNING: Null REGULAR-PAD specified for padstack RX1_46Y3_50R0_10T at (616.33 828.75).
+    WARNING: Null REGULAR-PAD specified for padstack PAD1 at (635.50 -885.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD1 at (710.50 -885.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD2 at (673.00 -805.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (663.00 -718.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (753.00 -718.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (696.00 -414.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (626.00 -299.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (619.00 -46.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (627.00 -175.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (620.00 66.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (628.00 182.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (636.00 317.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (686.00 437.00).
+    WARNING: Null REGULAR-PAD specified for padstack RX10_70Y10_46R0_10T at (959.03 1030.03).
+    WARNING: Null REGULAR-PAD specified for padstack RX1_46Y3_50R0_10T at (757.75 687.33).
+    WARNING: Null REGULAR-PAD specified for padstack RX1_46Y3_50R0_10T at (687.04 758.04).
+    WARNING: Null REGULAR-PAD specified for padstack PAD1 at (809.50 -889.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD1 at (884.50 -889.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD2 at (847.00 -809.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (916.00 -713.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (786.00 -414.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (776.00 437.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD1 at (995.50 -885.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD1 at (1070.50 -885.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD2 at (1033.00 -805.00).
+    WARNING: Null REGULAR-PAD specified for padstack PAD3 at (1006.00 -713.00).
+    WARNING: rectangle or unfilled shape composed 0 width line found at (-885.94 -1256.03)
+           ... ignored.
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02800                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  SQUARE     0.03600                     0.000 NO     DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.05906                     0.000 NO     DARK 
+  RECTANGLE  0.03600     x 0.05000       0.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.03000      90.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.04000       0.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000       0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.05000      90.000 NO     DARK 
+  RECTANGLE  0.08800     x 0.04500       0.000 NO     DARK 
+  OBLONG     0.01100     x 0.05906       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.01100       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.07874       0.000 NO     DARK 
+  OBLONG     0.07874     x 0.16535     135.000 NO     DARK 
+  OBLONG     0.16535     x 0.07874     135.000 NO     DARK 
+  PAD SHAPE  SRX10_70Y10_46R0_10       315.000 NO     DARK 
+  PAD SHAPE  SRX1_46Y3_50R0_10         315.000 NO     DARK 
+
+     silkall created with warnings
+
+
+================================================================
+     PROCESSING FILM < drill >
+     TO FILE < D:/LayoutPCB/pedal_control_bluetooth/drill.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                20.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+
+     drill created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        buttom-layer2 created.
+        maskbtm created.
+        masktop created.
+        silkbtm created with warnings
+        silktop created.
+        smdbtm created.
+        smdtop created.
+        top-layer1 created.
+        silkall created with warnings
+        drill created.
+
+ ARTWORK finished

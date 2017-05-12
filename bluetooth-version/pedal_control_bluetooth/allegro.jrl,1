@@ -1,0 +1,63 @@
+\t (00:00:33) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:33)     Journal start - Mon Dec 28 08:58:01 2015
+\t (00:00:33)         Host=WZJ-PC User=Administrator Pid=6948 CPUs=4
+\t (00:00:33) 
+\d (00:00:33) Database opened: D:/6-PCN-Project/3-术野摄像机脚踏板控制/bluetooth-version/pedal_control_bluetooth/bluttooth.brd
+\i (00:00:34) generaledit 
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out -1185.06 468.56
+\i (00:00:35) trapsize 1281
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out -1185.07 468.56
+\i (00:00:35) trapsize 2562
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out -934.25 468.56
+\i (00:00:35) trapsize 5124
+\i (00:00:37) zoom in 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom in -1651.58 -228.28
+\i (00:00:37) trapsize 2562
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in -1000.86 -668.93
+\i (00:00:40) trapsize 1281
+\i (00:00:45) artwork 
+\i (00:01:29) setwindow form.film_control
+\i (00:01:29) FORM film_control filmtree  silkall 
+\i (00:01:35) FORM film_control filmtree  buttom-layer2 
+\i (00:01:37) FORM film_control cancel  
+\i (00:01:37) setwindow pcb
+\i (00:01:37) generaledit 
+\i (00:01:39) setwindow form.vf_vis
+\i (00:01:39) FORM vf_vis 1 all_colorvisible NO 
+\i (00:01:39) FORM vf_vis 2 all_colorvisible NO 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom out 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom out -455.17 22.79
+\i (00:02:30) trapsize 2562
+\i (00:02:32) artwork 
+\i (00:02:35) setwindow form.film_control
+\i (00:02:35) FORM film_control filmtree  maskbtm 
+\i (00:02:37) FORM film_control filmtree  masktop 
+\i (00:02:38) FORM film_control filmtree popup 'Display for Visibility' masktop 
+\i (00:02:40) FORM film_control filmtree  maskbtm 
+\i (00:02:41) FORM film_control filmtree popup 'Display for Visibility' maskbtm 
+\i (00:02:43) FORM film_control filmtree  silkall 
+\i (00:02:44) FORM film_control filmtree popup 'Display for Visibility' silkall 
+\i (00:02:46) FORM film_control filmtree popup 'Display for Visibility' silkbtm 
+\i (00:02:50) FORM film_control filmtree popup 'Display for Visibility' silktop 
+\i (00:02:55) FORM film_control filmtree popup 'Display for Visibility' smdbtm 
+\i (00:03:02) FORM film_control select_all  
+\i (00:03:51) FORM film_control cancel  
+\i (00:03:51) setwindow pcb
+\i (00:03:51) generaledit 
+\i (00:03:52) open 
+\i (00:04:00) fillin "D:\6-PCN-Project\8-摄像机云台转换控制系统\电路\remotepanasonicDB9-rout-V1.1.brd"
+\i (00:04:00) cd "D:\6-PCN-Project\8-摄像机云台转换控制系统\电路"
+\t (00:04:00) Opening existing design...
+\i (00:04:00) trapsize 3994
+\t (00:04:00)     Journal end - Mon Dec 28 09:01:27 2015

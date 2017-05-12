@@ -1,0 +1,15 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    IDF_IN Logfile                                                   )
+(                                                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jul 18 18:15:08 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+IDF file: D:/LayoutPCB/pedal_control_bluetooth/idf/testpcb.bdf
+Version: 3.0
+Input file: D:/LayoutPCB/pedal_control_bluetooth/bluttooth.brd
+Output file: D:/LayoutPCB/pedal_control_bluetooth/bluttooth.brd
+idf_in complete.

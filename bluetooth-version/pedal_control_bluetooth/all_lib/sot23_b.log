@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : sot23_b.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jul 22 17:47:54 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/LayoutPCB/pedal_control_bluetooth/all_lib
+    Name      = sot23_b.psm
+    User      = wzj
+    Machine   = WZJ-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,89 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jul 15 16:59:11 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: D:/LayoutPCB/pedal_control_bluetooth/Panasonic_Canera_remote_rou-2.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  NEWVIAS being dumped.
+
+  PAD1 being dumped.
+
+  PAD2 being dumped.
+
+  PAD3 being dumped.
+
+  PAD20 being dumped.
+
+  PAD12 being dumped.
+
+  PAD21 being dumped.
+
+  PAD22 being dumped.
+
+  PAD14 being dumped.
+
+  PAD23 being dumped.
+
+  PAD15 being dumped.
+
+  PAD24 being dumped.
+
+  PAD16 being dumped.
+
+  PAD25 being dumped.
+
+  PAD17 being dumped.
+
+  PAD18 being dumped.
+
+  PAD19 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  hdr1x5 being dumped.
+
+  xtal-3_4mm-2p being dumped.
+
+  so8-opt being dumped.
+
+  xaltdip2 being dumped.
+
+  0805 being dumped.
+
+  3f07audioheader being dumped.
+
+  phonexheader3-1 being dumped.
+
+  dc205 being dumped.
+
+  0805_11493928 being dumped.
+
+  sot23 being dumped.
+
+  nuc122lqfp48 being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:               17
+Number of package symbols dumped:         11
+
+Total number of symbols dumped:           11
+*****************************************************
+
